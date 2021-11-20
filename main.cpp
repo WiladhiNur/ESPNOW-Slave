@@ -2,7 +2,6 @@
 #include <esp_now.h>
 #include <esp_adc_cal.h>
 #include <WiFi.h>
-#include <Wire.h>
 
 // LM35 is connected to GPIO 35 (Analog ADC1_CH6) 
 const int ADCPin = 35;
